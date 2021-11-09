@@ -1,0 +1,52 @@
+$primary-color:red;
+$second-color:white;
+$third-color:black;
+$language:"HTML5","CSS3","JAVA","REACT";
+
+@function premier($language){
+    
+  @return nth($language , $n:1 );
+
+
+}
+@function dernier($language){
+   
+   @return nth($language , $n:length($language) );
+
+
+}
+.language{
+    content: premier($language);
+}
+.text{
+    color:$primary-color;
+    font-size: 20px;
+
+}
+h1{
+    @extend .text;
+}
+textarea{
+    @extend .text;
+}
+
+@mixin border($color, $width) {
+    
+    border: solid $width $color;
+
+    
+}
+.btn{
+    @include border(yellow ,3px);
+}
+@function background($background-color){
+    @if background-color!='white'{
+        @return $second-color;
+        
+    }@else{
+
+        @return $third-color;
+
+    }
+
+}

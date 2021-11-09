@@ -1,0 +1,14 @@
+.language {
+  content: "HTML5";
+}
+
+.text, textarea, h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.btn {
+  border: solid 3px yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

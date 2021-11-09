@@ -1,0 +1,53 @@
+body {
+  color: #ff752f;
+}
+
+.button, .button-alert {
+  display: inline-block;
+  color: #ff752f;
+  text-align: center;
+  border: solid 2px #ff752f;
+}
+
+.button-alert {
+  border-radius: 4px;
+}
+
+.btn {
+  background: #ff752f;
+  border-radius: 5px;
+  color: #ffb60b;
+}
+
+#box {
+  font-weight: blod;
+  font-family: Arial;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.m-1 {
+  margin: 0 0.25rem;
+}
+
+.m-2 {
+  margin: 0 0.5rem;
+}
+
+.m-3 {
+  margin: 0 0.75rem;
+}
+
+.m-1 {
+  margin: 0 0.25rem;
+}
+
+.m-2 {
+  margin: 0 0.5rem;
+}
+
+.m-3 {
+  margin: 0 0.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
